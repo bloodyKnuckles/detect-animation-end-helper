@@ -1,0 +1,33 @@
+{
+  "name": "detect-animation-end-helper",
+  "version": "0.1.0",
+  "description": "Detect css animation or transition end event type.",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bloodyKnuckles/detect-animation-end-helper.git"
+  },
+  "keywords": [
+    "detect",
+    "css",
+    "animation",
+    "end",
+    "event",
+    "type"
+  ],
+  "author": "Jay Scott ANDERSON",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bloodyKnuckles/detect-animation-end-helper/issues"
+  },
+  "homepage": "https://github.com/bloodyKnuckles/detect-animation-end-helper#readme",
+  "devDependencies": {
+    "tape": "^4.4.0"
+  }
+}

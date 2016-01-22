@@ -1,0 +1,26 @@
+<style>
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+#anim {
+  animation: fadeOut 1s 1 ease forwards;
+}
+#trans {
+  opacity: 1;
+  transition-property: opacity;
+  transition-duration: 1s;
+}
+#trans.hide {
+  opacity: 0;
+}
+</style>
+
+<div id="anim">Animate me...</div>
+<div id="animmessage">~</div>
+<div id="trans">Transition me...</div>
+<div id="transmessage">~</div>
